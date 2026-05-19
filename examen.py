@@ -10,10 +10,10 @@ while opciones != 7:
         print("Opcion 1. Cargar productos")
         print("Opcion 2. mostrar productos")
         print("Opcion 3. buscar por codigo del productos")
-        print("Opcion 5. ordenar por precio del productos")
-        print("Opcion 6. mostrar menor stock")
-        print("Opcion 7. Calcular valor total")
-        print("Opcion 8. salir")
+        print("Opcion 4. ordenar por precio del productos")
+        print("Opcion 5. mostrar menor stock")
+        print("Opcion 6. Calcular valor total")
+        print("Opcion 7. salir")
 
         opciones = int(input("Opcion: "))
 
@@ -26,7 +26,7 @@ while opciones != 7:
                 precios = int(input("precio: "))
                 cantidad = int(input("Cantidades: "))
                 
-                codigos.append(codigos)
+                codigos.append(codigo)
                 Nombre.append(Nombres)
                 precio.append(precios)
                 cantidades.append(cantidad)
